@@ -44,14 +44,28 @@ clk_process :process
 stim_proc: process
 	begin        
         -- Reset
-		wait for 50 us;
+		wait for 10 us;
     in_data <='1';
-
-
-    wait for 50 us;
+    wait for 10 us;
     in_data <='0';
-    wait for 500 us;
+
+    wait for 10 us;
+    in_data <='0';
+    wait for 10 us;
     in_data <='1';
+
+    wait for 10 us;
+    in_data <='1';
+    wait for 10 us;
+    in_data <='1';
+
+    wait for 10 us;
+    in_data <='1';
+    wait for 10 us;
+    in_data <='0';
+    wait for 10 us;
+    in_data <='1';
+
     wait;
 
   	end process;
