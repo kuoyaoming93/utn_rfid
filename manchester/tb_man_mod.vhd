@@ -11,8 +11,8 @@ end tb_man_mod;
 architecture behavior of tb_man_mod is 
 component man_mod is
    port(
-      clk,in_data:      in std_logic;
-      out_data:         out std_logic
+      clk,in_data,in_enable:        in std_logic;
+      out_data:                     out std_logic
    );
 end component;
 
@@ -20,6 +20,8 @@ end component;
 signal clk:	  std_logic := '0';
 signal in_data: std_logic := '0';
 signal out_data: std_logic := '0';
+signal in_enable: std_logic := '0';
+
 
 constant clk_period : time := 10 us;
 
@@ -27,6 +29,7 @@ begin
 
 dut: man_mod PORT MAP(
                         clk       =>  clk,
+                        in_enable =>  in_enable,
                         in_data   =>  in_data,
 					              out_data  =>  out_data
 				 	);
@@ -44,27 +47,33 @@ clk_process :process
 stim_proc: process
 	begin        
         -- Reset
-		wait for 10 us;
-    in_data <='1';
-    wait for 10 us;
-    in_data <='0';
+    wait for 5 us;
+	wait for 20 us;
+    in_enable       <='1';
+    in_data         <='1';
+    wait for 20 us;
+    in_enable       <='1';
+    in_data         <='0';
 
-    wait for 10 us;
-    in_data <='0';
-    wait for 10 us;
-    in_data <='1';
+    wait for 20 us;
+    in_enable       <='0';
+    in_data         <='0';
+    wait for 20 us;
+    in_data         <='1';
 
-    wait for 10 us;
-    in_data <='1';
-    wait for 10 us;
-    in_data <='1';
+    wait for 20 us;
+    in_data         <='1';
+    wait for 20 us;
+    in_enable       <='1';
+    in_data         <='1';
 
-    wait for 10 us;
-    in_data <='1';
-    wait for 10 us;
-    in_data <='0';
-    wait for 10 us;
-    in_data <='1';
+    wait for 20 us;
+    in_data         <='1';
+    in_enable       <='0';
+    wait for 20 us;
+    in_data         <='0';
+    wait for 20 us;
+    in_data         <='1';
 
     wait;
 
