@@ -31,7 +31,7 @@ dut: man_mod PORT MAP(
                         clk       =>  clk,
                         in_enable =>  in_enable,
                         in_data   =>  in_data,
-					              out_data  =>  out_data
+					    out_data  =>  out_data
 				 	);
 
 

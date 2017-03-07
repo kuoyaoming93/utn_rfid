@@ -25,7 +25,7 @@ output out_data;
 
 reg out_data;
 
-always @(posedge clk or posedge in_enable) begin
+always @(posedge clk) begin
 	if (~in_enable) begin
 		// reset
 		out_data	<= 1'b0;
