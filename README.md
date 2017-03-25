@@ -6,4 +6,4 @@ Members:
 	* Galimberti, Flavio
 	* Grosso, Agustin
 	* Kuo, Yao-Ming
-	* Tantera, Juan
+	* Tántera, Juan
