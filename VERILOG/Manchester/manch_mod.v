@@ -17,49 +17,58 @@ output reg out_data;	//Salida del codificador manchester
 reg  [N-1:0] count;	//Cuento los cuatro clock para estar en la mitad del ETU
 reg etu;		//0 si se está en la primer mitad del etu - 1 si se está en la segunda mitad
 
-  always @ (negedge clk, negedge in_enable) begin
-      if(~in_enable) begin	//Cuando esta desabilitado el modulo, pongo la salida y el contador en 0 (cero)
-	out_data <= 1'b0;
-	etu <= 1'b0;
-	count <= {N{1'b0}};
-      end else begin
-      count <= count +1;
-      if(count == 3'b100) begin	//Cuando cuento la mitad de los clocks que entran en un etu
-	etu = ~ etu;		//invierto el etu
-	count <= 3'b001;		//reseteo el contador
-      end
-      if(~etu) begin		//Si estoy en la primera mitad del ETU
-	if(in_data) begin	//Si estoy en presencia de un 1 como dato
-  	    out_data <= clk;	//Copio el clk
-  	end else begin 		//Si estoy en presencia de un 0 como dato
-	    out_data <= 1'b1;	//Pongo en 1 la salida
-	    end
-      end else begin		//Si estoy en la segunda mitad de ETU
-	if(~in_data) begin	//Si estoy en presencia de un 0 como dato
-  	    out_data <= clk;	//Copio el clk
-  	end
-	end	
-	end
-  end
+always @ (negedge clk, negedge in_enable) begin
+    if(~in_enable) begin	//Cuando esta desabilitado el modulo, pongo la salida y el contador en 0 (cero)
+    out_data <= 1'b0;
+    etu <= 1'b0;
+    count <= {N{1'b0}};
+    end 
+    else begin
+        count <= count +1;
+        if(count == 3'b100) begin	//Cuando cuento la mitad de los clocks que entran en un etu
+            etu = ~ etu;		//invierto el etu
+            count <= 3'b001;	//reseteo el contador
+        end
+        if(~etu) begin		//Si estoy en la primera mitad del ETU
+            if(in_data) begin	//Si estoy en presencia de un 1 como dato
+                out_data <= clk;	//Copio el clk
+            end 
+            else begin 		//Si estoy en presencia de un 0 como dato
+                out_data <= 1'b1;	//Pongo en 1 la salida
+            end
+        end 
+        else begin		//Si estoy en la segunda mitad de ETU
+            if(~in_data) begin	//Si estoy en presencia de un 0 como dato
+                out_data <= clk;	//Copio el clk
+            end
+            else begin 		//Si estoy en presencia de un 1 como dato
+                out_data <= 1'b1;	//Pongo en 1 la salida
+            end
+        end	
+    end
+end
 	 	    
-  always @ (posedge clk, negedge in_enable) begin
-       if(~in_enable) begin	//Cuando esta desabilitado el modulo, pongo la salida y el contador en 0 (cero)
-	out_data <= 1'b0;
-	etu <= 1'b0;
-	count <= {N{1'b0}};
-      end else begin
-      
-      if(~etu) begin		//Si estoy en la primera mitad del ETU
-	if(in_data) begin	//Si estoy en presencia de un 1 como dato
-  	    out_data <= clk;	//Copio el clk
-  	end else begin 		//Si estoy en presencia de un 0 como dato
-	    out_data <= 1'b1;	//Pongo en 1 la salida
-	    end
-      end else begin		//Si estoy en la segunda mitad de ETU
-	if(~in_data) begin	//Si estoy en presencia de un 0 como dato
-  	    out_data <= clk;	//Copio el clk
-  	end
-	end
-	end
-  end  
+always @ (posedge clk, negedge in_enable) begin
+    if(~in_enable) begin	//Cuando esta desabilitado el modulo, pongo la salida y el contador en 0 (cero)
+        out_data <= 1'b0;
+        etu <= 1'b0;
+        count <= {N{1'b0}};
+    end
+    else begin
+        if(~etu) begin		//Si estoy en la primera mitad del ETU
+            if(in_data) begin	//Si estoy en presencia de un 1 como dato
+                out_data <= clk;	//Copio el clk
+            end 
+            else begin 		//Si estoy en presencia de un 0 como dato
+                out_data <= 1'b1;	//Pongo en 1 la salida
+            end
+        end
+        else begin		//Si estoy en la segunda mitad de ETU
+            if(~in_data) begin	//Si estoy en presencia de un 0 como dato
+                out_data <= clk;	//Copio el clk
+            end
+        end
+    end
+end
+
 endmodule

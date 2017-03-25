@@ -1,15 +1,17 @@
-###############################################################################
-# Comandos del MAKEFILE
-#	"make compilar" - compila
-#	"make simular" - compila el testbench y simula
-#	"make mostrar" - compila, simula y muestra el resultado
-###############################################################################
+#########################################################################################
+# Comandos del MAKEFILE									#
+#	"make compilar" - compila							#
+#	"make simular" - compila el testbench y simula					#
+#	"make mostrar" - compila, simula y muestra el resultado				#
+#	"make limpiar" - elimina todos los archivos generados para compilar y simular.	#
+#	"make all" - limpia, compila, simula y muestra					#
+#########################################################################################
 #Archivos
 
 FUENTE = manch_mod.v
 TESTBENCH = tb_manch_mod.v
 SALIDA = manch_mod.out
-###############################################################################
+##########################################################################################
 #Herramientas
 COMPILADOR = iverilog
 SIMULADOR = vvp
@@ -18,18 +20,27 @@ VISUALIZADOR = gtkwave
 COMP_FLAGS = -o
 COMP_OUT = compilador.out
 SIM_OUT = man_mod_tb.vcd	#VER tb_manch_mod.v ---> linea 9 'module man_mod_tb;'
-###############################################################################
+##########################################################################################
 #DIRECTIVAS
 
 .PHONY: all
-
-all:
-	limpiar compilar simular mostrar
+all: limpiar compilar simular mostrar
 
 .PHONY: limpiar
-
 limpiar: 
+	clear
+	@echo	'Arvhivos *.out y *.vcd eliminados.'
 	-rm -f *.out *.vcd
+
+.PHONY : ayuda
+ayuda:	
+	@echo	'Uso:'
+	@echo	'  make all:      Limpia, compila, simula y muestra.'
+	@echo	'  make compilar: Compila los archivos TB y verilog.'
+	@echo	'  make simular:  Compila y simula con vvp.'
+	@echo	'  make mostrar:  Compila, simula y muestra con GTKwave.'
+	@echo	'  make limpiar:  Elimina todos los archivos generados para compilar y simular.'
+	@echo	''
 
 compilar : $(TESTBENCH) $(FUENTE)
 	$(COMPILADOR) $(TESTBENCH) $(FUENTE) $(COMP_FLAGS) $(SALIDA)
