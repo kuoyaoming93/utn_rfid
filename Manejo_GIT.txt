@@ -27,3 +27,28 @@
 		  Clonar repositorio ya creado a la pc
    ~$git clone https://github.com/agumig/utn_rfid
    
+TRABAJAR CON UNA RAMA
+   
+		  Crear y entrar en una rama
+   ~$git branch mirama
+   ~$git checkout mirama		
+	    ó
+   ~$git checkout -b mirama		  
+
+		  Agregar archivos a la rama
+   ~$git add example.c
+   ~$git commit -m "Archivo ejemplo en lenguaje C"
+   ~$git push origin mirama
+   
+		  Volver al repo principal
+   ~$git checkout master		  
+   
+		  Mover cambios de la rama al master
+   ~$git merge mirama		  
+   
+		  Limpiar la rama
+   ~$git branch -d mirama		  
+   
+		  Subir actualizaciones al repositorio
+   ~$git push origin master		  
+   
