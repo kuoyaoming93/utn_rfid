@@ -44,7 +44,7 @@ reg pre_out;		//Usado para ir haciendole AND a cada bit que llega por in_data
       end
       end
   end
-	 	    
+/*	 	    
   always @ (posedge clk, negedge in_enable) begin
        if(~in_enable) begin	//Cuando esta desabilitado el modulo, pongo la salida, los registros y el contador en 0 (cero)
 	out_data <= 1'b0;
@@ -53,4 +53,5 @@ reg pre_out;		//Usado para ir haciendole AND a cada bit que llega por in_data
 	pre_out <= 1'b1;
       end 
   end  
+*/
 endmodule
