@@ -1,0 +1,2 @@
+verilog verilog "mill_modif_demod.v"
+verilog work "C:/Xilinx/11.1/ISE/verilog/src/glbl.v"
