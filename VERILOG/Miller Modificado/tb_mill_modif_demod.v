@@ -6,6 +6,10 @@
 --	Se va a ver la salida con un delay de 1 (uno) ETU	--
 ----------------------------------------------------------------*/
 
+//Frecuencia clk = 3.39MHz
+//Frecuencia ETU = 106KHz
+// Entran 32 clock's dentro de cada ETU
+
  `timescale 1us/1us	//Dividir el eje de tiempo en unidades de 1us
 
 module mill_modif_demod_tb;	//Modulo de test bench
@@ -14,10 +18,11 @@ module mill_modif_demod_tb;	//Modulo de test bench
   reg clk;
   reg in_data;
   reg in_enable;
+  reg pause;
 //   Las salidas del DUT son wire
   wire out_data;
   
-  mill_modif_demod u1(clk, in_enable, in_data, out_data);	//DUT a testear
+  mill_modif_demod u1(clk, in_enable, in_data, out_data, pause);	//DUT a testear
 //----------------------------------------------------------
 // Inicializo
 // Inicializar todo para que no quede en estados "fantasmas"
@@ -26,6 +31,7 @@ module mill_modif_demod_tb;	//Modulo de test bench
       clk= 1'b0; 
       in_data= 1'b0;
       in_enable=1'b0; 
+      pause = 1'b0;
 
       end
 //----------------------------------------------------------
@@ -42,14 +48,22 @@ module mill_modif_demod_tb;	//Modulo de test bench
 	#36 in_enable=1'b1; 				//200us despues de la instruccion anterior habilito el dispositivo
 // 	#16 repeat(4) #16 in_data = ~in_data;		//8us despues de la instruccion anterior switcheo in_data cada 24us
 	in_data = 1'b1;					//Pongo a 1 in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#16 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#16 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#8 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#64 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#64 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
+	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
+	pause = ~pause;
 	
 // 	#16 in_enable=1'b0; 	
 // 	#32 in_enable=1'b1; 
