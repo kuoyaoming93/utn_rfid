@@ -9,15 +9,15 @@
 
 module mill_modif_demod #(parameter N = 5)(clk, in_enable, in_data, out_data, pause);
 
-input clk;		//Clock de fc/16 en RFID (847,5 KHz)
-input in_data;		//Informacion - ETU de 106Kb/s (8 clocks dentro de cada ETU)
-input in_enable;	//Bit de habilitacion del modulo
+input clk;				//Clock de fc/16 en RFID (847,5 KHz)
+input in_data;			//Informacion - ETU de 106Kb/s (8 clocks dentro de cada ETU)
+input in_enable;		//Bit de habilitacion del modulo
 output reg out_data;	//Salida del decodificador miller modificado
-input pause;	//Registro que viene desde el detector de pause
+input in_pause;			//Registro que viene desde el detector de pause
 
-reg  [N-1:0] count;	//Cuento los cuatro clock para estar en la mitad del ETU
-reg etu;		//0 si se está en la primer mitad del etu / 1 si se está en la segunda mitad
-reg pre_out;		//Usado para ir haciendole AND a cada bit que llega por in_data
+reg  [N-1:0] count;		//Cuento los cuatro clock para estar en la mitad del ETU
+reg etu;				//0 si se está en la primer mitad del etu / 1 si se está en la segunda mitad
+reg pre_out;			//Usado para ir haciendole AND a cada bit que llega por in_data
 reg reg_pause;
 
   always @ (negedge clk, negedge in_enable, posedge pause) begin
