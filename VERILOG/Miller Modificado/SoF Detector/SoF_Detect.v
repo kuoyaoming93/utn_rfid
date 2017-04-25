@@ -6,7 +6,7 @@
 --Analiza la información en Miller modificado y detecta el simbolo "Z"(SoF)	--	
 --------------------------------------------------------------------------------*/
 
-module SoF_Detect #(parameter N = 5)(in_clk, in_data, out_enable, in_pause, in_PoR, in_y_detected);
+module SoF_Detect #(parameter N = 4)(in_clk, in_data, out_enable, in_pause, in_PoR, in_y_detected);
 
 	input in_clk;			//Clock a fc/4 = 13.56MHz/4
 	input in_data;			//Informacion - ETU de 106Kb/s (32 clocks dentro de cada ETU)
@@ -15,12 +15,12 @@ module SoF_Detect #(parameter N = 5)(in_clk, in_data, out_enable, in_pause, in_P
 	input in_y_detected;	//Cuando el Detector de End of Frame detecta el EoF, pone en 1
 	output reg out_enable;	//Cuando detecto el simbolo "Z", habilito el decodificador Miller
 	
-	reg  [N-1:0] reg_count;		//Cuento los clock para estar en la mitad del ETU
-	reg reg_pause;			
+	reg  [N-1:0] reg_count;		//Cuento los clock para estar en la mitad del ETU (cuento la mitad de los clocks que entran en el ETU)
+	reg reg_pause;				//Guardo en un registro lo que llega por in_pause
 	reg reg_flag;				//Bandera para manejar cuando detectar el simbolo "Z" y cuando mandar a dormir el modulo
 	
 	always @(negedge in_clk, posedge in_pause, posedge in_y_detected) begin
-		if(~in_PoR) begin	//Inicializo todo	
+		if(~in_PoR) begin	//Inicializo todo cuando el power on reset está bajo
 			reg_pause <= 1'b0;
 			reg_flag <= 1'b0;
 			reg_count <= {N{1'b0}};		
@@ -32,13 +32,13 @@ module SoF_Detect #(parameter N = 5)(in_clk, in_data, out_enable, in_pause, in_P
 		if(~reg_flag) begin	//Si el flag esta en 0, busco detectar el simbolo Z
 			if(reg_pause) begin
 				reg_count <= reg_count +1;	//Pasó la pausa y tengo que contar medio ETU para detectar el "Z"
-				if(reg_count == {N-1{1'b1}}) begin
-					out_enable <= 1'b1;				//Pongo la salida en 1
+				if(reg_count == {N{1'b1}}) begin
+					out_enable <= 1'b1;				//Pongo la salida en '1' (se detectó el símbolo)
 					reg_flag <= 1'b1;				//Cambio el flag
 				end		
 			end		
 		end else begin
-			if(in_y_detected == 1'b1) begin
+			if(in_y_detected == 1'b1) begin			//Si el bloque detector del símbolo "Y", detecta el FIN, pone en '1'
 				out_enable <= 1'b0;
 				reg_pause <= 1'b0;
 				reg_flag <= 1'b0;

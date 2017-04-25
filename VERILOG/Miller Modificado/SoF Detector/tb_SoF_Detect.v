@@ -58,7 +58,7 @@ module SoF_Detect_tb;	//Modulo de test bench
 	#64 in_data = ~in_data;				
 	#32 in_data = ~in_data;				
 	in_pause = ~in_pause;
-	#32 in_data = ~in_data;				
+	#32 in_data = ~in_data;
 	#32 in_data = ~in_data;				
 	
 //  	#560 repeat(10) #10 in_data = ~in_data;
