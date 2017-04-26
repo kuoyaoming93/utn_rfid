@@ -31,11 +31,14 @@ module SoF_Detect #(parameter N = 4)(in_clk, in_data, out_enable, in_pause, in_P
       end	
 		if(~reg_flag) begin	//Si el flag esta en 0, busco detectar el simbolo Z
 			if(reg_pause) begin
+				if(in_data) begin
 				reg_count <= reg_count +1;	//Pasó la pausa y tengo que contar medio ETU para detectar el "Z"
+					end
 				if(reg_count == {N{1'b1}}) begin
 					out_enable <= 1'b1;				//Pongo la salida en '1' (se detectó el símbolo)
 					reg_flag <= 1'b1;				//Cambio el flag
-				end		
+				
+				end				
 			end		
 		end else begin
 			if(in_y_detected == 1'b1) begin			//Si el bloque detector del símbolo "Y", detecta el FIN, pone en '1'
