@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.ncd
+OUTFILE=/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto
+LICENSE=WebPack
+USER_INFO=211345747_0_0_959

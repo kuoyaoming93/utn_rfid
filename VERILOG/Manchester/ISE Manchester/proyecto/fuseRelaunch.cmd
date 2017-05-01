@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/tb_man_mod_isim_beh.exe" -prj "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/tb_man_mod_beh.prj" "tb_man_mod" "work.glbl" 

@@ -1,0 +1,157 @@
+#! /usr/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision - 6;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x146a0e0 .scope module, "man_mod_tb" "man_mod_tb" 2 8;
+ .timescale -6 -6;
+v0x14a8960_0 .var "clk", 0 0;
+v0x14a89e0_0 .var "in_data", 0 0;
+v0x14a8a60_0 .var "in_enable", 0 0;
+v0x14a8ae0_0 .net "out_data", 0 0, L_0x14aa390; 1 drivers
+S_0x148fc00 .scope module, "u1" "man_mod" 2 16, 3 10, S_0x146a0e0;
+ .timescale -6 -6;
+P_0x1458b28 .param/l "N" 3 10, +C4<011>;
+v0x147f690_0 .net *"_s10", 0 0, L_0x14a8ea0; 1 drivers
+v0x14a7220_0 .net *"_s12", 2 0, C4<110>; 1 drivers
+v0x14a72c0_0 .net *"_s14", 0 0, L_0x14a9030; 1 drivers
+v0x14a7360_0 .net *"_s16", 2 0, C4<111>; 1 drivers
+v0x14a7410_0 .net *"_s18", 0 0, L_0x14a9200; 1 drivers
+v0x14a74b0_0 .net *"_s2", 2 0, C4<100>; 1 drivers
+v0x14a7590_0 .net *"_s20", 0 0, C4<1>; 1 drivers
+v0x14a7630_0 .net *"_s22", 2 0, C4<000>; 1 drivers
+v0x14a7720_0 .net *"_s24", 0 0, L_0x14a93e0; 1 drivers
+v0x14a77c0_0 .net *"_s26", 0 0, C4<0>; 1 drivers
+v0x14a78c0_0 .net *"_s28", 2 0, C4<001>; 1 drivers
+v0x14a7960_0 .net *"_s30", 0 0, L_0x14a95d0; 1 drivers
+v0x14a7a70_0 .net *"_s32", 0 0, C4<0>; 1 drivers
+v0x14a7b10_0 .net *"_s34", 2 0, C4<010>; 1 drivers
+v0x14a7c30_0 .net *"_s36", 0 0, L_0x14a97a0; 1 drivers
+v0x14a7cd0_0 .net *"_s38", 0 0, C4<0>; 1 drivers
+v0x14a7b90_0 .net *"_s4", 0 0, L_0x14a8ce0; 1 drivers
+v0x14a7e20_0 .net *"_s40", 0 0, C4<0>; 1 drivers
+v0x14a7f40_0 .net *"_s42", 0 0, L_0x14a99b0; 1 drivers
+v0x14a7fc0_0 .net *"_s44", 0 0, L_0x14a9b70; 1 drivers
+v0x14a7ea0_0 .net *"_s46", 0 0, L_0x14a9cb0; 1 drivers
+v0x14a80f0_0 .net *"_s48", 0 0, L_0x14a9e40; 1 drivers
+v0x14a8040_0 .net *"_s50", 0 0, L_0x14aa040; 1 drivers
+v0x14a8230_0 .net *"_s52", 0 0, L_0x14aa1d0; 1 drivers
+v0x14a8190_0 .net *"_s6", 0 0, C4<1>; 1 drivers
+v0x14a8380_0 .net *"_s8", 2 0, C4<101>; 1 drivers
+v0x14a82d0_0 .net "aux", 2 0, L_0x14a8b90; 1 drivers
+v0x14a84e0_0 .net "clk", 0 0, v0x14a8960_0; 1 drivers
+v0x14a8420_0 .var "count", 2 0;
+v0x14a8650_0 .var "etu", 0 0;
+v0x14a8560_0 .net "in_data", 0 0, v0x14a89e0_0; 1 drivers
+v0x14a87d0_0 .net "in_enable", 0 0, v0x14a8a60_0; 1 drivers
+v0x14a86d0_0 .alias "out_data", 0 0, v0x14a8ae0_0;
+E_0x1469ff0 .event negedge, v0x14a87d0_0, v0x14a84e0_0;
+L_0x14a8b90 .concat [ 1 1 1 0], v0x14a89e0_0, v0x14a8650_0, v0x14a8a60_0;
+L_0x14a8ce0 .cmp/eq 3, L_0x14a8b90, C4<100>;
+L_0x14a8ea0 .cmp/eq 3, L_0x14a8b90, C4<101>;
+L_0x14a9030 .cmp/eq 3, L_0x14a8b90, C4<110>;
+L_0x14a9200 .cmp/eq 3, L_0x14a8b90, C4<111>;
+L_0x14a93e0 .cmp/eq 3, L_0x14a8b90, C4<000>;
+L_0x14a95d0 .cmp/eq 3, L_0x14a8b90, C4<001>;
+L_0x14a97a0 .cmp/eq 3, L_0x14a8b90, C4<010>;
+L_0x14a99b0 .functor MUXZ 1, C4<0>, C4<0>, L_0x14a97a0, C4<>;
+L_0x14a9b70 .functor MUXZ 1, L_0x14a99b0, C4<0>, L_0x14a95d0, C4<>;
+L_0x14a9cb0 .functor MUXZ 1, L_0x14a9b70, C4<0>, L_0x14a93e0, C4<>;
+L_0x14a9e40 .functor MUXZ 1, L_0x14a9cb0, C4<1>, L_0x14a9200, C4<>;
+L_0x14aa040 .functor MUXZ 1, L_0x14a9e40, v0x14a8960_0, L_0x14a9030, C4<>;
+L_0x14aa1d0 .functor MUXZ 1, L_0x14aa040, v0x14a8960_0, L_0x14a8ea0, C4<>;
+L_0x14aa390 .functor MUXZ 1, L_0x14aa1d0, C4<1>, L_0x14a8ce0, C4<>;
+    .scope S_0x148fc00;
+T_0 ;
+    %wait E_0x1469ff0;
+    %load/v 8, v0x14a87d0_0, 1;
+    %inv 8, 1;
+    %jmp/0xz  T_0.0, 8;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x14a8650_0, 0, 0;
+    %ix/load 0, 3, 0;
+    %assign/v0 v0x14a8420_0, 0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %ix/load 0, 1, 0;
+    %load/vp0 8, v0x14a8420_0, 3;
+    %ix/load 0, 3, 0;
+    %assign/v0 v0x14a8420_0, 0, 8;
+    %load/v 8, v0x14a8420_0, 3;
+    %cmpi/u 8, 4, 3;
+    %jmp/0xz  T_0.2, 4;
+    %load/v 8, v0x14a8650_0, 1;
+    %inv 8, 1;
+    %set/v v0x14a8650_0, 8, 1;
+    %movi 8, 1, 3;
+    %ix/load 0, 3, 0;
+    %assign/v0 v0x14a8420_0, 0, 8;
+T_0.2 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0x146a0e0;
+T_1 ;
+    %set/v v0x14a8960_0, 0, 1;
+    %set/v v0x14a89e0_0, 0, 1;
+    %set/v v0x14a8a60_0, 0, 1;
+    %end;
+    .thread T_1;
+    .scope S_0x146a0e0;
+T_2 ;
+    %delay 1, 0;
+    %load/v 8, v0x14a8960_0, 1;
+    %inv 8, 1;
+    %set/v v0x14a8960_0, 8, 1;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_0x146a0e0;
+T_3 ;
+    %delay 10, 0;
+    %movi 8, 4, 4;
+T_3.0 %cmp/s 0, 8, 4;
+    %jmp/0xz T_3.1, 5;
+    %add 8, 1, 4;
+    %delay 8, 0;
+    %load/v 12, v0x14a89e0_0, 1;
+    %inv 12, 1;
+    %set/v v0x14a89e0_0, 12, 1;
+    %jmp T_3.0;
+T_3.1 ;
+    %delay 36, 0;
+    %set/v v0x14a8a60_0, 1, 1;
+    %delay 16, 0;
+    %movi 8, 4, 4;
+T_3.2 %cmp/s 0, 8, 4;
+    %jmp/0xz T_3.3, 5;
+    %add 8, 1, 4;
+    %delay 16, 0;
+    %load/v 12, v0x14a89e0_0, 1;
+    %inv 12, 1;
+    %set/v v0x14a89e0_0, 12, 1;
+    %jmp T_3.2;
+T_3.3 ;
+    %set/v v0x14a89e0_0, 0, 1;
+    %delay 16, 0;
+    %set/v v0x14a89e0_0, 1, 1;
+    %delay 26, 0;
+    %set/v v0x14a8a60_0, 0, 1;
+    %delay 4, 0;
+    %set/v v0x14a8a60_0, 1, 1;
+    %delay 40, 0;
+    %vpi_call 2 45 "$finish";
+    %end;
+    .thread T_3;
+    .scope S_0x146a0e0;
+T_4 ;
+    %vpi_call 2 52 "$dumpfile", "man_mod_tb.vcd";
+    %vpi_call 2 53 "$dumpvars", 1'sb0, S_0x146a0e0;
+    %end;
+    .thread T_4;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_manch_mod.v";
+    "manch_mod.v";

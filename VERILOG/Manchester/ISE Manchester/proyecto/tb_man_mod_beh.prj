@@ -1,0 +1,3 @@
+verilog work "manch_mod.v"
+verilog work "tb_man_mod.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
