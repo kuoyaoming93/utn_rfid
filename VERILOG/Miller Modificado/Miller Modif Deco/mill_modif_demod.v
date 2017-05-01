@@ -28,13 +28,14 @@ reg reg_pause;
       
       if(~in_PoR) begin	//Cuando esta desabilitado el modulo, pongo la salida, los registros y el contador en 0 (cero)
         out_data <= 1'b0;
-        reg_etu <= 1'b0;	
+        reg_etu <= 1'b0;
         reg_count <= {N{1'b0}};
         pre_out <= 1'b1;
         reg_pause <= 1'b0;
       end else begin
- 	      reg_pause <= in_pause;
-
+        if(in_pause) begin
+ 	        reg_pause <= in_pause;
+        end
         if(in_data) begin
           reg_count <= reg_count +1;
         end
@@ -46,13 +47,16 @@ reg reg_pause;
               if(~reg_etu) begin			//No se conto una primer mitad del ETU 
                 out_data <= 1'b0;		//Cero a la salida
                 reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador  
+                reg_etu = 1'b0;
+                reg_pause = 1'b0;
               end
           end else begin
             if(~reg_etu) begin			//Es el primer ETU que cuento
               reg_etu <= ~reg_etu;
             end else begin          //Conte un ETU completo, es decir, un cero
               reg_etu <= ~reg_etu;			//Reseteo el registro
-              out_data <= 1'b0;			//Cero a la salida              
+              out_data <= 1'b0;			//Cero a la salida        
+              reg_pause = 1'b0;      
             end             
             reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador 
           end
@@ -62,6 +66,7 @@ reg reg_pause;
         out_data <= 1'b1;
         reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador
         reg_etu <= ~reg_etu;			//Reseteo el registro
+        reg_pause = 1'b0;
       end  
     end
   end
