@@ -28,7 +28,7 @@ always @ (negedge clk, negedge in_enable) begin
 	else begin
 		count <= count +1'b1;
 		if(count == 3'b100) begin	//Cuando cuento la mitad de los clocks que entran en un etu
-			etu = ~ etu;		//invierto el etu
+			etu <= ~ etu;		//invierto el etu
 			count <= 3'b001;		//reseteo el contador
 		end    	
 	end
