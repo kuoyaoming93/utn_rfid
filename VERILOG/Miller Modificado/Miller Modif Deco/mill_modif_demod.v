@@ -19,7 +19,8 @@ reg  [N-1:0] reg_count;		//Cuento los clock para estar en la mitad del ETU
 reg reg_etu;				      //0 si se está en la primer mitad del etu - 1 si se está en la segunda mitad
 reg pre_out;			        //Usado para ir haciendole AND a cada bit que llega por in_data
 reg reg_pause;
-
+  
+/*------------Quitar este assign. Es solamente para simulacion------------*/
   assign in_clk = (clk & in_data);  //Para simular cuando nos quedamos sin clock
   
   always @ (negedge in_clk, negedge in_PoR, posedge in_pause) begin
@@ -37,12 +38,7 @@ reg reg_pause;
         if(in_data) begin
           reg_count <= reg_count +1;
         end
-              
-      if(reg_pause && reg_etu) begin
-        out_data <= 1'b1;
-        reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador
-        reg_etu <= ~reg_etu;			//Reseteo el registro
-      end  
+                 
         
   
         if(reg_count == {N{1'b1}}) begin	//Cuando cuento la mitad de los clocks que entran en un etu
@@ -60,7 +56,13 @@ reg reg_pause;
             end             
             reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador 
           end
-      end
+      end        
+        
+         if(reg_pause && reg_etu) begin
+        out_data <= 1'b1;
+        reg_count <= {{(N-1){1'b0}},1'b1};		//reseteo el contador
+        reg_etu <= ~reg_etu;			//Reseteo el registro
+      end  
     end
   end
 endmodule
