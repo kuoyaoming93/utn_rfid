@@ -1,0 +1,2067 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc /home/juan/Proyecto
+final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf -p xc6slx9-csg324-2
+man_mod.ngc man_mod.ngd
+
+Reading NGO file "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE
+Manchester/proyecto/man_mod.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "/home/juan/Proyecto
+final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET USER_RESET      LOC = V4  |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]:
+   NET "USER_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET USER_RESET      LOC = V4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]:
+   NET "USER_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]: NET "USER_RESET" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET USER_RESET      TIG;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(59)]:
+   NET "USER_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_SCK           LOC = R15 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]:
+   NET "SPI_SCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_SCK           LOC = R15 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]:
+   NET "SPI_SCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_CS_n          LOC = V3  |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]:
+   NET "SPI_CS_n" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_CS_n          LOC = V3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]:
+   NET "SPI_CS_n" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_MOSI_MISO0    LOC = T13 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]:
+   NET "SPI_MOSI_MISO0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MOSI_MISO0    LOC = T13 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]:
+   NET "SPI_MOSI_MISO0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_MISO_MISO1    LOC = R13 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]:
+   NET "SPI_MISO_MISO1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MISO_MISO1    LOC = R13 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]:
+   NET "SPI_MISO_MISO1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_Wn_MISO2      LOC = T14 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]:
+   NET "SPI_Wn_MISO2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_Wn_MISO2      LOC = T14 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]:
+   NET "SPI_Wn_MISO2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SPI_HOLDn_MISO3   LOC = V14 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]:
+   NET "SPI_HOLDn_MISO3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_HOLDn_MISO3   LOC = V14 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]:
+   NET "SPI_HOLDn_MISO3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET USER_CLOCK        LOC = V10 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]:
+   NET "USER_CLOCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET USER_CLOCK        LOC = V10 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]:
+   NET "USER_CLOCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET CLOCK_Y2          LOC = K15 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]:
+   NET "CLOCK_Y2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET CLOCK_Y2          LOC = K15 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]:
+   NET "CLOCK_Y2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET CLOCK_Y3          LOC = C10 |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]:
+   NET "CLOCK_Y3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET CLOCK_Y3          LOC = C10 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]:
+   NET "CLOCK_Y3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET USER_CLOCK TNM_NET = USER_CLOCK;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(83)]:
+   NET "USER_CLOCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_USER_CLOCK = PERIOD
+   USER_CLOCK 40000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]: Unable to find an
+   active 'TNM' or 'TimeGrp' constraint named 'USER_CLOCK'.
+
+ERROR:ConstraintSystem:59 - Constraint <NET CLOCK_Y2 TNM_NET = CLOCK_Y2;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(85)]:
+   NET "CLOCK_Y2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2
+   66666.7 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]: Unable to find an
+   active 'TNM' or 'TimeGrp' constraint named 'CLOCK_Y2'.
+
+ERROR:ConstraintSystem:59 - Constraint <NET CLOCK_Y3 TNM_NET = CLOCK_Y3;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(87)]:
+   NET "CLOCK_Y3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3
+   100000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]: Unable to find an
+   active 'TNM' or 'TimeGrp' constraint named 'CLOCK_Y3'.
+
+ERROR:ConstraintSystem:59 - Constraint <NET BACKUP_CLK        LOC = R8  |>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]:
+   NET "BACKUP_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BACKUP_CLK        LOC = R8  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]:
+   NET "BACKUP_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_DIP1         LOC = B3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]: NET "GPIO_DIP1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_DIP1         LOC = B3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]: NET "GPIO_DIP1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]: NET "GPIO_DIP1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_DIP2         LOC = A3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]: NET "GPIO_DIP2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_DIP2         LOC = A3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]: NET "GPIO_DIP2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]: NET "GPIO_DIP2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_DIP3         LOC = B4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]: NET "GPIO_DIP3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_DIP3         LOC = B4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]: NET "GPIO_DIP3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]: NET "GPIO_DIP3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_DIP4         LOC = A4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]: NET "GPIO_DIP4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_DIP4         LOC = A4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]: NET "GPIO_DIP4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]: NET "GPIO_DIP4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_LED1         LOC = P4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]: NET "GPIO_LED1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_LED1         LOC = P4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]: NET "GPIO_LED1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_LED2         LOC = L6  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]: NET "GPIO_LED2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_LED2         LOC = L6  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]: NET "GPIO_LED2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_LED3         LOC = F5  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]: NET "GPIO_LED3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_LED3         LOC = F5  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]: NET "GPIO_LED3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET GPIO_LED4         LOC = C2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]: NET "GPIO_LED4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET GPIO_LED4         LOC = C2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]: NET "GPIO_LED4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET USB_RS232_RXD     LOC = R7  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]: NET "USB_RS232_RXD"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET USB_RS232_RXD     LOC = R7  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]: NET "USB_RS232_RXD"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET USB_RS232_TXD     LOC = T7  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]: NET "USB_RS232_TXD"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET USB_RS232_TXD     LOC = T7  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]: NET "USB_RS232_TXD"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SCL               LOC=P12   |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]: NET "SCL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SCL               LOC=P12   |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]: NET "SCL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]: NET "SCL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SDA               LOC=U13   |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]: NET "SDA" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SDA               LOC=U13   |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]: NET "SDA" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]: NET "SDA" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A0          LOC = J7  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]: NET "LPDDR_A0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A0          LOC = J7  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]: NET "LPDDR_A0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A1          LOC = J6  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]: NET "LPDDR_A1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A1          LOC = J6  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]: NET "LPDDR_A1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A2          LOC = H5  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]: NET "LPDDR_A2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A2          LOC = H5  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]: NET "LPDDR_A2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A3          LOC = L7  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]: NET "LPDDR_A3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A3          LOC = L7  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]: NET "LPDDR_A3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A4          LOC = F3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]: NET "LPDDR_A4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A4          LOC = F3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]: NET "LPDDR_A4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A5          LOC = H4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]: NET "LPDDR_A5" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A5          LOC = H4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]: NET "LPDDR_A5" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A6          LOC = H3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]: NET "LPDDR_A6" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A6          LOC = H3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]: NET "LPDDR_A6" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A7          LOC = H6  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]: NET "LPDDR_A7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A7          LOC = H6  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]: NET "LPDDR_A7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A8          LOC = D2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]: NET "LPDDR_A8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A8          LOC = D2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]: NET "LPDDR_A8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A9          LOC = D1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]: NET "LPDDR_A9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A9          LOC = D1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]: NET "LPDDR_A9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A10         LOC = F4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]: NET "LPDDR_A10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A10         LOC = F4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]: NET "LPDDR_A10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A11         LOC = D3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]: NET "LPDDR_A11" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A11         LOC = D3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]: NET "LPDDR_A11" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_A12         LOC = G6  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]: NET "LPDDR_A12" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_A12         LOC = G6  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]: NET "LPDDR_A12" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_BA0         LOC = F2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]: NET "LPDDR_BA0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_BA0         LOC = F2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]: NET "LPDDR_BA0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_BA1         LOC = F1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]: NET "LPDDR_BA1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_BA1         LOC = F1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]: NET "LPDDR_BA1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ0         LOC = L2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]: NET "LPDDR_DQ0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ0         LOC = L2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]: NET "LPDDR_DQ0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ1         LOC = L1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]: NET "LPDDR_DQ1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ1         LOC = L1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]: NET "LPDDR_DQ1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ2         LOC = K2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]: NET "LPDDR_DQ2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ2         LOC = K2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]: NET "LPDDR_DQ2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ3         LOC = K1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]: NET "LPDDR_DQ3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ3         LOC = K1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]: NET "LPDDR_DQ3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ4         LOC = H2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]: NET "LPDDR_DQ4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ4         LOC = H2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]: NET "LPDDR_DQ4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ5         LOC = H1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]: NET "LPDDR_DQ5" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ5         LOC = H1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]: NET "LPDDR_DQ5" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ6         LOC = J3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]: NET "LPDDR_DQ6" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ6         LOC = J3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]: NET "LPDDR_DQ6" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ7         LOC = J1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]: NET "LPDDR_DQ7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ7         LOC = J1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]: NET "LPDDR_DQ7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ8         LOC = M3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]: NET "LPDDR_DQ8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ8         LOC = M3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]: NET "LPDDR_DQ8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ9         LOC = M1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]: NET "LPDDR_DQ9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ9         LOC = M1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]: NET "LPDDR_DQ9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ10        LOC = N2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]: NET "LPDDR_DQ10"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ10        LOC = N2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]: NET "LPDDR_DQ10"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ11        LOC = N1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]: NET "LPDDR_DQ11"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ11        LOC = N1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]: NET "LPDDR_DQ11"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ12        LOC = T2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]: NET "LPDDR_DQ12"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ12        LOC = T2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]: NET "LPDDR_DQ12"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ13        LOC = T1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]: NET "LPDDR_DQ13"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ13        LOC = T1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]: NET "LPDDR_DQ13"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ14        LOC = U2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]: NET "LPDDR_DQ14"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ14        LOC = U2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]: NET "LPDDR_DQ14"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_DQ15        LOC = U1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]: NET "LPDDR_DQ15"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_DQ15        LOC = U1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]: NET "LPDDR_DQ15"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_LDM         LOC = K3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]: NET "LPDDR_LDM" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_LDM         LOC = K3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]: NET "LPDDR_LDM" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_UDM         LOC = K4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]: NET "LPDDR_UDM" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_UDM         LOC = K4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]: NET "LPDDR_UDM" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_LDQS        LOC = L4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]: NET "LPDDR_LDQS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_LDQS        LOC = L4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]: NET "LPDDR_LDQS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_UDQS        LOC = P2  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]: NET "LPDDR_UDQS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_UDQS        LOC = P2  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]: NET "LPDDR_UDQS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_CK_N        LOC = G1  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]: NET "LPDDR_CK_N"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_CK_N        LOC = G1  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]: NET "LPDDR_CK_N"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_CK_P        LOC = G3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]: NET "LPDDR_CK_P"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_CK_P        LOC = G3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]: NET "LPDDR_CK_P"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_CKE         LOC = H7  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]: NET "LPDDR_CKE" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_CKE         LOC = H7  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]: NET "LPDDR_CKE" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_CAS_n       LOC = K5  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]: NET "LPDDR_CAS_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_CAS_n       LOC = K5  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]: NET "LPDDR_CAS_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_RAS_n       LOC = L5  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]: NET "LPDDR_RAS_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_RAS_n       LOC = L5  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]: NET "LPDDR_RAS_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_WE_n        LOC = E3  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]: NET "LPDDR_WE_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_WE_n        LOC = E3  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]: NET "LPDDR_WE_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LPDDR_RZQ         LOC = N4  |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]: NET "LPDDR_RZQ" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LPDDR_RZQ         LOC = N4  |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = MOBILE_DDR;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]: NET "LPDDR_RZQ" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_COL           LOC = M18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]: NET "ETH_COL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_COL           LOC = M18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]: NET "ETH_COL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]: NET "ETH_COL" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_CRS           LOC = N17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]: NET "ETH_CRS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_CRS           LOC = N17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]: NET "ETH_CRS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLDOWN;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]: NET "ETH_CRS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_MDC           LOC = M16 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]: NET "ETH_MDC" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_MDC           LOC = M16 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]: NET "ETH_MDC" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_MDIO          LOC = L18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]: NET "ETH_MDIO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_MDIO          LOC = L18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]: NET "ETH_MDIO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RESET_n       LOC = T18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]: NET "ETH_RESET_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RESET_n       LOC = T18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]: NET "ETH_RESET_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <TIG;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]: NET "ETH_RESET_n"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_CLK        LOC = L15 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]: NET "ETH_RX_CLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_CLK        LOC = L15 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]: NET "ETH_RX_CLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_D0         LOC = T17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]: NET "ETH_RX_D0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_D0         LOC = T17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]: NET "ETH_RX_D0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]: NET "ETH_RX_D0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_D1         LOC = N16 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]: NET "ETH_RX_D1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_D1         LOC = N16 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]: NET "ETH_RX_D1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]: NET "ETH_RX_D1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_D2         LOC = N15 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]: NET "ETH_RX_D2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_D2         LOC = N15 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]: NET "ETH_RX_D2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]: NET "ETH_RX_D2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_D3         LOC = P18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]: NET "ETH_RX_D3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_D3         LOC = P18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]: NET "ETH_RX_D3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]: NET "ETH_RX_D3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_DV         LOC = P17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]: NET "ETH_RX_DV" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_DV         LOC = P17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]: NET "ETH_RX_DV" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_RX_ER         LOC = N18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]: NET "ETH_RX_ER" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_RX_ER         LOC = N18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]: NET "ETH_RX_ER" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_CLK        LOC = H17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]: NET "ETH_TX_CLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_CLK        LOC = H17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]: NET "ETH_TX_CLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_D0         LOC = K18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]: NET "ETH_TX_D0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_D0         LOC = K18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]: NET "ETH_TX_D0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_D1         LOC = K17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]: NET "ETH_TX_D1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_D1         LOC = K17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]: NET "ETH_TX_D1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_D2         LOC = J18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]: NET "ETH_TX_D2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_D2         LOC = J18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]: NET "ETH_TX_D2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_D3         LOC = J16 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]: NET "ETH_TX_D3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_D3         LOC = J16 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]: NET "ETH_TX_D3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET ETH_TX_EN         LOC = L17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]: NET "ETH_TX_EN" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ETH_TX_EN         LOC = L17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]: NET "ETH_TX_EN" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P1          LOC = F15 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]: NET "PMOD1_P1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P1          LOC = F15 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]: NET "PMOD1_P1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P2          LOC = F16 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]: NET "PMOD1_P2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P2          LOC = F16 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]: NET "PMOD1_P2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P3          LOC = C17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]: NET "PMOD1_P3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P3          LOC = C17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]: NET "PMOD1_P3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P4          LOC = C18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]: NET "PMOD1_P4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P4          LOC = C18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]: NET "PMOD1_P4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P7          LOC = F14 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]: NET "PMOD1_P7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P7          LOC = F14 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]: NET "PMOD1_P7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P8          LOC = G14 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]: NET "PMOD1_P8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P8          LOC = G14 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]: NET "PMOD1_P8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P9          LOC = D17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]: NET "PMOD1_P9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P9          LOC = D17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]: NET "PMOD1_P9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD1_P10         LOC = D18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]: NET "PMOD1_P10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD1_P10         LOC = D18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]: NET "PMOD1_P10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P1          LOC = H12 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]: NET "PMOD2_P1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P1          LOC = H12 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]: NET "PMOD2_P1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P2          LOC = G13 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]: NET "PMOD2_P2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P2          LOC = G13 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]: NET "PMOD2_P2" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P3          LOC = E16 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]: NET "PMOD2_P3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P3          LOC = E16 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]: NET "PMOD2_P3" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P4          LOC = E18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]: NET "PMOD2_P4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P4          LOC = E18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]: NET "PMOD2_P4" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P7          LOC = K12 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]: NET "PMOD2_P7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P7          LOC = K12 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]: NET "PMOD2_P7" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P8          LOC = K13 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]: NET "PMOD2_P8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P8          LOC = K13 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]: NET "PMOD2_P8" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P9          LOC = F17 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]: NET "PMOD2_P9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P9          LOC = F17 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]: NET "PMOD2_P9" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET PMOD2_P10         LOC = F18 |>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]: NET "PMOD2_P10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET PMOD2_P10         LOC = F18 |> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]: NET "PMOD2_P10" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:191 - The TNM 'USER_CLOCK', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMS and cannot be actively
+   used by the referencing Period constraint 'TS_USER_CLOCK'. If clock manager
+   blocks are directly or indirectly driven, a new TNM constraint will not be
+   derived even though the referencing constraint is a PERIOD constraint unless
+   an output of the clock manager drives flip-flops, latches or RAMs. This TNM
+   is used in the following user PERIOD specification:
+   <TIMESPEC TS_USER_CLOCK = PERIOD USER_CLOCK 40000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_USER_CLOCK = PERIOD USER_CLOCK 40000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]
+
+WARNING:ConstraintSystem:191 - The TNM 'CLOCK_Y2', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMS and cannot be actively
+   used by the referencing Period constraint 'TS_CLOCK_Y2'. If clock manager
+   blocks are directly or indirectly driven, a new TNM constraint will not be
+   derived even though the referencing constraint is a PERIOD constraint unless
+   an output of the clock manager drives flip-flops, latches or RAMs. This TNM
+   is used in the following user PERIOD specification:
+   <TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2 66666.7 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2 66666.7 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]
+
+WARNING:ConstraintSystem:191 - The TNM 'CLOCK_Y3', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMS and cannot be actively
+   used by the referencing Period constraint 'TS_CLOCK_Y3'. If clock manager
+   blocks are directly or indirectly driven, a new TNM constraint will not be
+   derived even though the referencing constraint is a PERIOD constraint unless
+   an output of the clock manager drives flip-flops, latches or RAMs. This TNM
+   is used in the following user PERIOD specification:
+   <TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3 100000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3 100000 kHz;> [/home/juan/Proyecto
+   final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:   216
+  Number of warnings: 108
+
+Total memory usage is 404112 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "man_mod.bld"...

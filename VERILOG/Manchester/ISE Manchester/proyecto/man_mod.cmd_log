@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+xst -intstyle ise -ifn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.xst" -ofn "/home/juan/Proyecto final/utn_rfid/VERILOG/Manchester/ISE Manchester/proyecto/man_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "man_mod.ngc" man_mod.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o man_mod_map.ncd man_mod.ngd man_mod.pcf 
+par -w -intstyle ise -ol high -mt off man_mod_map.ncd man_mod.ncd man_mod.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml man_mod.twx man_mod.ncd -o man_mod.twr man_mod.pcf 
+bitgen -intstyle ise -f man_mod.ut man_mod.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf" -p xc6slx9-csg324-2 "man_mod.ngc" man_mod.ngd  

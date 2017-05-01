@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USER_RESET      LOC = V4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_RESET</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET USER_RESET      LOC = V4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_RESET</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(58)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_RESET</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USER_RESET      TIG;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(59)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_RESET</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_SCK           LOC = R15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_SCK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_SCK           LOC = R15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(66)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_SCK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_CS_n          LOC = V3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_CS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_CS_n          LOC = V3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(67)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_CS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_MOSI_MISO0    LOC = T13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_MOSI_MISO0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_MOSI_MISO0    LOC = T13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(68)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_MOSI_MISO0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_MISO_MISO1    LOC = R13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_MISO_MISO1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_MISO_MISO1    LOC = R13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(69)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_MISO_MISO1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_Wn_MISO2      LOC = T14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_Wn_MISO2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_Wn_MISO2      LOC = T14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(70)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_Wn_MISO2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SPI_HOLDn_MISO3   LOC = V14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_HOLDn_MISO3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SPI_HOLDn_MISO3   LOC = V14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(71)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SPI_HOLDn_MISO3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USER_CLOCK        LOC = V10 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_CLOCK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET USER_CLOCK        LOC = V10 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(79)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_CLOCK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET CLOCK_Y2          LOC = K15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET CLOCK_Y2          LOC = K15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(80)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET CLOCK_Y3          LOC = C10 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET CLOCK_Y3          LOC = C10 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(81)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USER_CLOCK TNM_NET = USER_CLOCK;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(83)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USER_CLOCK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_USER_CLOCK = PERIOD USER_CLOCK 40000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">USER_CLOCK</arg>&apos;.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET CLOCK_Y2 TNM_NET = CLOCK_Y2;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(85)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2 66666.7 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">CLOCK_Y2</arg>&apos;.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET CLOCK_Y3 TNM_NET = CLOCK_Y3;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(87)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CLOCK_Y3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3 100000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">CLOCK_Y3</arg>&apos;.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET BACKUP_CLK        LOC = R8  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BACKUP_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET BACKUP_CLK        LOC = R8  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(94)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">BACKUP_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_DIP1         LOC = B3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_DIP1         LOC = B3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(100)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_DIP2         LOC = A3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_DIP2         LOC = A3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(101)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_DIP3         LOC = B4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_DIP3         LOC = B4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(102)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_DIP4         LOC = A4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_DIP4         LOC = A4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(103)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_DIP4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_LED1         LOC = P4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_LED1         LOC = P4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS18;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(108)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_LED2         LOC = L6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_LED2         LOC = L6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS18;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(109)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_LED3         LOC = F5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_LED3         LOC = F5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS18;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(110)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET GPIO_LED4         LOC = C2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET GPIO_LED4         LOC = C2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS18;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(111)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">GPIO_LED4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USB_RS232_RXD     LOC = R7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USB_RS232_RXD</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET USB_RS232_RXD     LOC = R7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(116)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USB_RS232_RXD</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET USB_RS232_TXD     LOC = T7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USB_RS232_TXD</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET USB_RS232_TXD     LOC = T7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(117)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">USB_RS232_TXD</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SCL               LOC=P12   |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SCL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SCL               LOC=P12   |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SCL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(123)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SCL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET SDA               LOC=U13   |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SDA</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET SDA               LOC=U13   |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SDA</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(124)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">SDA</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A0          LOC = J7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A0          LOC = J7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(131)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A1          LOC = J6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A1          LOC = J6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(132)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A2          LOC = H5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A2          LOC = H5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(133)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A3          LOC = L7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A3          LOC = L7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(134)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A4          LOC = F3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A4          LOC = F3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(135)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A5          LOC = H4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A5</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A5          LOC = H4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(136)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A5</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A6          LOC = H3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A6</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A6          LOC = H3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(137)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A6</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A7          LOC = H6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A7          LOC = H6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(138)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A8          LOC = D2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A8          LOC = D2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(139)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A9          LOC = D1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A9          LOC = D1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(140)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A10         LOC = F4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A10         LOC = F4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(141)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A11         LOC = D3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A11</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A11         LOC = D3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(142)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A11</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_A12         LOC = G6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A12</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_A12         LOC = G6  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(143)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_A12</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_BA0         LOC = F2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_BA0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_BA0         LOC = F2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(144)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_BA0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_BA1         LOC = F1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_BA1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_BA1         LOC = F1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(145)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_BA1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ0         LOC = L2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ0         LOC = L2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(147)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ1         LOC = L1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ1         LOC = L1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(148)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ2         LOC = K2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ2         LOC = K2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(149)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ3         LOC = K1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ3         LOC = K1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(150)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ4         LOC = H2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ4         LOC = H2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(151)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ5         LOC = H1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ5</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ5         LOC = H1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(152)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ5</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ6         LOC = J3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ6</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ6         LOC = J3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(153)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ6</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ7         LOC = J1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ7         LOC = J1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(154)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ8         LOC = M3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ8         LOC = M3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(155)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ9         LOC = M1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ9         LOC = M1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(156)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ10        LOC = N2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ10        LOC = N2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(157)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ11        LOC = N1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ11</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ11        LOC = N1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(158)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ11</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ12        LOC = T2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ12</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ12        LOC = T2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(159)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ12</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ13        LOC = T1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ13</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ13        LOC = T1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(160)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ13</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ14        LOC = U2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ14</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ14        LOC = U2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(161)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ14</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_DQ15        LOC = U1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ15</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_DQ15        LOC = U1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(162)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_DQ15</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_LDM         LOC = K3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_LDM</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_LDM         LOC = K3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(163)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_LDM</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_UDM         LOC = K4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_UDM</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_UDM         LOC = K4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(164)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_UDM</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_LDQS        LOC = L4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_LDQS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_LDQS        LOC = L4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(165)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_LDQS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_UDQS        LOC = P2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_UDQS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_UDQS        LOC = P2  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(166)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_UDQS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_CK_N        LOC = G1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CK_N</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_CK_N        LOC = G1  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = DIFF_MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(168)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CK_N</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_CK_P        LOC = G3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CK_P</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_CK_P        LOC = G3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = DIFF_MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(169)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CK_P</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_CKE         LOC = H7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CKE</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_CKE         LOC = H7  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(170)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CKE</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_CAS_n       LOC = K5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CAS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_CAS_n       LOC = K5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(172)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_CAS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_RAS_n       LOC = L5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_RAS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_RAS_n       LOC = L5  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(173)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_RAS_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_WE_n        LOC = E3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_WE_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_WE_n        LOC = E3  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(174)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_WE_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET LPDDR_RZQ         LOC = N4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_RZQ</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET LPDDR_RZQ         LOC = N4  |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = MOBILE_DDR;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(175)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">LPDDR_RZQ</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_COL           LOC = M18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_COL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_COL           LOC = M18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_COL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(190)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_COL</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_CRS           LOC = N17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_CRS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_CRS           LOC = N17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_CRS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLDOWN;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(191)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_CRS</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_MDC           LOC = M16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_MDC</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_MDC           LOC = M16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(192)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_MDC</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_MDIO          LOC = L18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_MDIO</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_MDIO          LOC = L18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(193)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_MDIO</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RESET_n       LOC = T18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RESET_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RESET_n       LOC = T18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RESET_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIG;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(194)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RESET_n</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_CLK        LOC = L15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_CLK        LOC = L15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(195)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_D0         LOC = T17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_D0         LOC = T17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(196)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_D1         LOC = N16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_D1         LOC = N16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(197)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_D2         LOC = N15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_D2         LOC = N15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(198)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_D3         LOC = P18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_D3         LOC = P18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;PULLUP;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(199)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_D3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_DV         LOC = P17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_DV</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_DV         LOC = P17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(200)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_DV</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_RX_ER         LOC = N18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_ER</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_RX_ER         LOC = N18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(201)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_RX_ER</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_CLK        LOC = H17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_CLK        LOC = H17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(202)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_CLK</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_D0         LOC = K18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_D0         LOC = K18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(203)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_D1         LOC = K17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_D1         LOC = K17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(204)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_D2         LOC = J18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_D2         LOC = J18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(205)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_D3         LOC = J16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_D3         LOC = J16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(206)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_D3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET ETH_TX_EN         LOC = L17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_EN</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET ETH_TX_EN         LOC = L17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(207)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ETH_TX_EN</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P1          LOC = F15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P1          LOC = F15 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(220)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P2          LOC = F16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P2          LOC = F16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(221)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P3          LOC = C17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P3          LOC = C17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(222)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P4          LOC = C18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P4          LOC = C18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(223)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P7          LOC = F14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P7          LOC = F14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(224)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P8          LOC = G14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P8          LOC = G14 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(225)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P9          LOC = D17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P9          LOC = D17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(226)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD1_P10         LOC = D18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD1_P10         LOC = D18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(227)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD1_P10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P1          LOC = H12 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P1          LOC = H12 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(230)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P2          LOC = G13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P2          LOC = G13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(231)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P2</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P3          LOC = E16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P3          LOC = E16 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(232)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P3</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P4          LOC = E18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P4          LOC = E18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(233)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P4</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P7          LOC = K12 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P7          LOC = K12 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(234)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P7</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P8          LOC = K13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P8          LOC = K13 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(235)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P8</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P9          LOC = F17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P9          LOC = F17 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(236)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P9</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;NET PMOD2_P10         LOC = F18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET PMOD2_P10         LOC = F18 |&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="new" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVCMOS33;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(237)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">PMOD2_P10</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="191" delta="new" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">USER_CLOCK</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMS and cannot be actively used by the referencing <arg fmt="%s" index="3">Period</arg> constraint &apos;<arg fmt="%s" index="4">TS_USER_CLOCK</arg>&apos;. If clock manager blocks are directly or indirectly driven, a new TNM constraint will not be derived even though the referencing constraint is a PERIOD constraint unless an output of the clock manager drives flip-flops, latches or RAMs. This TNM is used in the following user PERIOD specification:
+<arg fmt="%s" index="5">&lt;TIMESPEC TS_USER_CLOCK = PERIOD USER_CLOCK 40000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]
+</arg></msg>
+
+<msg type="warning" file="ConstraintSystem" num="197" delta="new" >The following specification is invalid because the referenced TNM constraint was removed:
+<arg fmt="%s" index="1">&lt;TIMESPEC TS_USER_CLOCK = PERIOD USER_CLOCK 40000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(84)]</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="191" delta="new" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_Y2</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMS and cannot be actively used by the referencing <arg fmt="%s" index="3">Period</arg> constraint &apos;<arg fmt="%s" index="4">TS_CLOCK_Y2</arg>&apos;. If clock manager blocks are directly or indirectly driven, a new TNM constraint will not be derived even though the referencing constraint is a PERIOD constraint unless an output of the clock manager drives flip-flops, latches or RAMs. This TNM is used in the following user PERIOD specification:
+<arg fmt="%s" index="5">&lt;TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2 66666.7 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]
+</arg></msg>
+
+<msg type="warning" file="ConstraintSystem" num="197" delta="new" >The following specification is invalid because the referenced TNM constraint was removed:
+<arg fmt="%s" index="1">&lt;TIMESPEC TS_CLOCK_Y2 = PERIOD CLOCK_Y2 66666.7 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(86)]</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="191" delta="new" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_Y3</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMS and cannot be actively used by the referencing <arg fmt="%s" index="3">Period</arg> constraint &apos;<arg fmt="%s" index="4">TS_CLOCK_Y3</arg>&apos;. If clock manager blocks are directly or indirectly driven, a new TNM constraint will not be derived even though the referencing constraint is a PERIOD constraint unless an output of the clock manager drives flip-flops, latches or RAMs. This TNM is used in the following user PERIOD specification:
+<arg fmt="%s" index="5">&lt;TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3 100000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]
+</arg></msg>
+
+<msg type="warning" file="ConstraintSystem" num="197" delta="new" >The following specification is invalid because the referenced TNM constraint was removed:
+<arg fmt="%s" index="1">&lt;TIMESPEC TS_CLOCK_Y3 = PERIOD CLOCK_Y3 100000 kHz;&gt; [/home/juan/Proyecto final/utn_rfid/Avt_S6LX9_MicroBoard_UCF_110804.ucf(88)]</arg>
+</msg>
+
+</messages>
+
