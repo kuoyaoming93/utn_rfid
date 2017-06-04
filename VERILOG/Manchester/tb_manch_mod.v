@@ -30,18 +30,18 @@ module man_mod_tb;	//Modulo de test bench
     //-----------------------------------------------------------
     initial
     begin
-        //      forever #10 clk = ~clk; // generate a clock	
         #10 repeat(4) #8 in_data = ~in_data;		//10us del arranque, switcheo in_data cada 8us
-        #36 in_enable=1'b1; 				//36us despues de la instruccion anterior habilito el dispositivo
-        #16 repeat(4) #16 in_data = ~in_data;		//16us despues de la instruccion anterior switcheo in_data cada 24us
-        in_data=1'b0;					//Pongo a 0 in_data
-        #16	in_data = 1'b1;				//16us despues, lo pngo a 1
+        #36 in_enable=1'b1; 			//36us despues de la instruccion anterior habilito el dispositivo
+        #64 repeat(4) 
+        #64 in_data = ~in_data;         //16us despues de la instruccion anterior switcheo in_data cada 24us
+        in_data=1'b0;                   //Pongo a 0 in_data
+        #64	in_data = 1'b1;             //16us despues, lo pngo a 1
 
         // 	#16 in_enable=1'b0; 	
         // 	#32 in_enable=1'b1; 
         //  	#560 repeat(10) #10 in_data = ~in_data;
         #26 in_enable=1'b0; 				//Deshabilito el dispositivo
-        #4  in_enable=1'b1; 				//Habilito el dispositivo
+        #20 in_enable=1'b1; 				//Habilito el dispositivo
         #40 $finish;					//Finalizo la simulación
     end
  
