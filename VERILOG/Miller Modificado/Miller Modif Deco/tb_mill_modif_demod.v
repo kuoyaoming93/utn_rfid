@@ -18,12 +18,10 @@ module mill_modif_demod_tb;	//Modulo de test bench
   	reg clk;
   	reg in_data;
   	reg in_PoR;
-  	reg in_pause;
 //   Las salidas del DUT son wire
   	wire out_data;
-	wire out_pause;
-  
-  	mill_modif_demod u1(clk, in_PoR, in_data, out_data, in_pause, out_pause);	//DUT a testear
+	wire out_pause;  
+  	mill_modif_demod u1(clk, in_PoR, in_data, out_data);	//DUT a testear
 //----------------------------------------------------------
 // Inicializo
 // Inicializar todo para que no quede en estados "fantasmas"
@@ -32,7 +30,6 @@ module mill_modif_demod_tb;	//Modulo de test bench
       clk= 1'b0; 
       in_data= 1'b0;
       in_PoR=1'b0; 
-      in_pause = 1'b0;
 
       end
 //----------------------------------------------------------
@@ -50,21 +47,17 @@ module mill_modif_demod_tb;	//Modulo de test bench
 // 	#16 repeat(4) #16 in_data = ~in_data;		//8us despues de la instruccion anterior switcheo in_data cada 24us
 	in_data = 1'b1;					//Pongo a 1 in_data
 	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#28in_pause = ~in_pause;
-	#4 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#4in_pause = ~in_pause;
-	#60 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#28in_pause = ~in_pause;
-	#4 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#4in_pause = ~in_pause;
-	#60 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#28in_pause = ~in_pause;
-	#4 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#4in_pause = ~in_pause;
 	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#28in_pause = ~in_pause;
-	#4 in_data = ~in_data;				//Switcheo a los 4us in_data
-	#4in_pause = ~in_pause;
+	#68 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#68 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#36 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#136 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#68 in_data = ~in_data;				//Switcheo a los 4us in_data
+	#28 in_data = ~in_data;				//Switcheo a los 4us in_data
 	
 // 	#16 in_PoR=1'b0; 	
 // 	#32 in_PoR=1'b1; 
