@@ -67,7 +67,7 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
         	end
       
       //-Boque para detectar, mediante un contador, la mitad de un ETU y un ETU completo-
-      if(reg_count == {{(N-1){1'b1}},{1'b0}}) begin	//Cuando cuento los 32 clocks que entran en un etu
+      if(reg_count == {(N){1'b1}}) begin	//Cuando cuento los 32 clocks que entran en un etu
         reg_etu <= 1'b1;			//Cambio a estado alto el registro de detección de un ETU
         reg_mitad_etu <= 1'b0;   
 			end else begin
@@ -79,11 +79,13 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
       //---------------------------------------------------------------------------------
       
       //-Bloque para resetear el módulo Detector de Pausa-//
-			if(in_pause) begin
-				if(~flag_pause) begin
-					flag_pause <= 1'b1;          
+        if(in_pause) begin        //Si hubo una pausa
+          if(~flag_pause) begin    
+					flag_count_end <= 1'b1;     //Levanto el flag para contar 3 clocks luego de la pausa  
+          reg_count <= {N{1'b0}};   //Me aseguro que, despues de contar esos 3 clocks, el contador arranque en 0  
+
 				end else begin
-          flag_pause <= 1'b0;
+          flag_pause <= 1'b0;     
 					out_pause <= 1'b1;	//Reseteo el detector de pausa
 				end
 			end else begin
@@ -95,6 +97,7 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
         if(count_end == 2'b1) begin   //Cuando cuento los tres clock posteriores a la pausa, salgo de esta condición
           flag_count_end <= 1'b0;
           count_end <= 2'b0;
+          flag_pause <= 1'b1;   //Levanto el flag de pausa detectada
         end else begin
           count_end <= count_end + 1; //Cuento clocks
         end
@@ -110,14 +113,15 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
 			out_data <= 1'b0;
       reg_flag  <= 1'b0;
 			reg_mitad_etu<= 1'b0;
-      reg_count <= {{(N-1){1'b0}},1'b1};
+      reg_count <= {N{1'b0}};
+
 		end	
 		if(flag_pause) begin		//Hubo una pausa
-      flag_count_end <= 1'b1;   //Levanto el flag para contar 3 clocks luego de la pausa
       if(reg_mitad_etu) begin	    //Hubo una primer mitad del ETU
 			  reg_mitad_etu<= ~ reg_mitad_etu;
 				reg_flag <= 1'b0;
-        reg_count <= {{(N-1){1'b0}},1'b1};
+
+        reg_count <= {N{1'b0}};       
         out_data <= 1'b1;
 			end else begin 		    //Vino primero la pausa que la mitad del ETU
 				reg_flag <= 1'b1;
@@ -125,8 +129,8 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
 		end else begin
 			if(reg_etu) begin	//Si conté un ETU completo
         out_data <= 1'b0;
-        reg_etu <= ~reg_etu;
-        reg_count <= {{(N-1){1'b0}},1'b1};        
+        reg_etu <= ~reg_etu;        
+        reg_count <= {N{1'b0}};     
 			end
 		end
 	end
