@@ -1,0 +1,27 @@
+Bill of Material for 
+On 29/08/17 at 08:56:11
+
+ Comment             Pattern       Cantidad  Components
+				   x placa
+------------------------------------------------------------------------------
+ 110K                R_1210           1    R6                    Chip Resistor        
+ 1K5                 R_1210           1    R7                    Chip Resistor        
+ 1K8                 R_1210           1    R4                    Chip Resistor
+ 3224W-2-202         Bourns3224W      1    R3                    SMD Potentiometer 0-2K
+ 220                 R_1210           1    R8                    Chip Resistor  
+ 500K                R_1210           1    R5                    Chip Resistor        
+ 51                  R_1210           2    R2, R9                Chip Resistor        
+ 51k                 R_1210           1    R1                    Chip Resistor    
+ 1nF                 C_1210           1    C1                    Ceramic Capacitor     
+ 27pF                C_1210           1    C4                    Ceramic Capacitor
+ GKG50025            GKG___25         1    C2                    Trimmer Capacitor 15-50pf
+ TZC3R100A11         TZC3             1    C3                    Trimmer Capacitor 3-10pf                                  
+ Capacitor           C_1210           2    C5, C6                Ceramic Capacitor	(Demodulador)
+ R_1/4               R_1210           1    R10                   Chip Resistor          (Demodulador)  
+ BAR43S              SOT-23           2    D1, D2                Diodo Shottcky                  
+ BCV61A              SOT143B          1    U1                    NPN general-purpose double transistors                      
+ BSS83               SOT143B          4    TR1, TR5, TR6, TR7    MOSFET N-channel  
+ BSS84               SOT-23           3    TR2, TR3, TR4         P-channel          
+ BZX84-15V           SOT-23           1    Dz1                   NPN general-purpose double transistors                   
+ Tira de Pines			      20
+ Jumpers			      10	
