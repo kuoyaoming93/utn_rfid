@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: PCB1.PcbDoc   29/08/17  08:15:24
+NCDrill File Report For: PCB1.PcbDoc   31/08/17  10:01:12
 ---------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,9 +9,9 @@ Tool         Hole Size           Hole Type     Hole Count Plated       Tool Trav
 ---------------------------------------------------------------------------
 T1        0.5mm (19.685mil)        Round          2                7.27 mm (0.29 Inch)
 T2        0.711mm (27.992mil)      Round          2                14.80 mm (0.58 Inch)
-T3        1mm (39.37mil)           Round          20               141.93 mm (5.59 Inch)
+T3        1mm (39.37mil)           Round          22               157.07 mm (6.18 Inch)
 T4        1.2mm (47.244mil)        Round          2                5.00 mm (0.20 Inch)
 ---------------------------------------------------------------------------
-Totals                                            26               169.00 mm (6.65 Inch)
+Totals                                            28               184.14 mm (7.25 Inch)
 
 Total Processing Time (hh:mm:ss) : 00:00:00

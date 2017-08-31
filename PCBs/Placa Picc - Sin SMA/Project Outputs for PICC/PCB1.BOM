@@ -1,0 +1,27 @@
+Bill of Material for 
+On 31/08/17 at 10:02:46
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0K - 2K             BOURNS 3224W     1    R3                           SMD Potentiometer    
+ 110K                R_1210           1    R6                           Chip Resistor        
+ 1K5                 R_1210           1    R7                           Chip Resistor        
+ 1K8                 R_1210           1    R4                           Chip Resistor        
+ 1nF                 C_1210           1    C1                           Ceramic Capacitor    
+ 220                 R_1210           1    R8                           Chip Resistor        
+ 27pF                C_1210           1    C4                           Ceramic Capacitor    
+ 500K                R_1210           1    R5                           Chip Resistor        
+ 51                  R_1210           2    R2, R9                       Chip Resistor        
+ 51k                 R_1210           1    R1                           Chip Resistor        
+ BAR43S              BAR43S           2    D1, D2                                            
+ BCV61A              BCV61A           1    U1                                                
+ BSS83               BSS83            4    TR1, TR5, TR6, TR7                                
+ BSS84               SOT_23           3    TR2, TR3, TR4                                     
+ BZX84-15V           BZX84            1    Dz1                                               
+ C_2                 2x1 Pin Array    8    CN1, CN2, CN3, CN4, CN7, CN8 Conector 2 pines     
+                                           CN9, CN11
+ Cap                 C_1210           2    C5, C6                       Ceramic Capacitor    
+ GKGXXX15            GKGXXX15         1    C2                           10                   
+ Jump_1              2x1 Pin Array    1    CN10                         Conector 2 pines     
+ R_1/4               R_1210           1    R10                          Chip Resistor        
+ TZC3                TZC3             1    C3                                                
