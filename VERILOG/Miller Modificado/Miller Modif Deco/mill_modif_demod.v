@@ -7,16 +7,17 @@
 --	Test bench de este archivo en tb_mill_modif_demod.v		--
 ------------------------------------------------------------------------*/
 
-module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
+module mill_modif_demod #(parameter N = 5, parameter M = 256)(clk, in_PoR, in_enable, in_data, out_data);
   input clk;					      //Clock de fc/4 en RFID (3.39 MHz)
   wire in_clk;				      //Clock de fc/4 en RFID (3.39 MHz) modulado- Para la simulación
-  input in_data;			      //Informacion - ETU de 106Kb/s (32 clocks dentro de cada ETU)
+  input in_data;			      //Informacion - ETU de 106Kb/s (32 clocks dentro de cada ETU)  
   input in_PoR;		          //Power on reset
+  input in_enable;            //Habilitación controlada por el SOF_Detect y el EOF_Detect
   
   reg in_pause;			        //Registro que viene desde el detector de pause
   reg out_pause;		        //Salida que resetea el detector  de pausa
   
-  output reg out_data;	  	//Salida del decodificador miller modificado
+  output reg [M-1:0] out_data;	  	//Salida del decodificador miller modificado
 
   reg  [N-1:0] reg_count;		//Cuento los clock para estar en la mitad del ETU
   reg reg_mitad_etu;				//1 cuando se contó la primer mitad del ETU
@@ -47,8 +48,8 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
   //-----Módulo encargado de contar clocks dentro de ETU's y de setear un flag (flag_pause) ante una pausa-----
 	always @(negedge in_clk, negedge in_PoR) begin
 		
-    if(~in_PoR) begin	//Cuando esta desabilitado el módulo, pongo la salida, los registros y el contador en 0 (cero)
-			out_data <= 1'b0;
+    if(~in_PoR || ~in_enable) begin	//Cuando esta desabilitado el módulo, pongo la salida, los registros y el contador en 0 (cero)
+      out_data <= {M{1'b0}};
       out_pause <= 1'b0;
 			reg_etu <= 1'b0;
       reg_mitad_etu <= 1'b0;
@@ -109,8 +110,9 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
 	
   always @(posedge flag_pause, posedge reg_etu, posedge reg_mitad_etu) begin
 		
-    if(reg_flag & reg_mitad_etu)  begin
-			out_data <= 1'b0;
+    if(reg_flag && reg_mitad_etu)  begin
+      out_data = out_data <<< 1;
+      out_data <= 1'b0;
       reg_flag  <= 1'b0;
 			reg_mitad_etu<= 1'b0;
       reg_count <= {N{1'b0}};
@@ -121,13 +123,15 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
 			  reg_mitad_etu<= ~ reg_mitad_etu;
 				reg_flag <= 1'b0;
 
-        reg_count <= {N{1'b0}};       
-        out_data <= 1'b1;
+        reg_count <= {N{1'b0}};  
+         out_data = out_data <<< 1;
+         out_data <= 1'b1;
 			end else begin 		    //Vino primero la pausa que la mitad del ETU
 				reg_flag <= 1'b1;
 			end
 		end else begin
 			if(reg_etu) begin	//Si conté un ETU completo
+        out_data = out_data <<< 1;
         out_data <= 1'b0;
         reg_etu <= ~reg_etu;        
         reg_count <= {N{1'b0}};     

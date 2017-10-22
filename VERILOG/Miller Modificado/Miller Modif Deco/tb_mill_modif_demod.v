@@ -14,14 +14,16 @@
 
 module mill_modif_demod_tb;	//Modulo de test bench
 
+	parameter M = 256;
 // Entradas del DUT son reg
   	reg clk;
   	reg in_data;
   	reg in_PoR;
+	reg in_enable;
 //   Las salidas del DUT son wire
-  	wire out_data;
+	wire [M-1:0] out_data;
 	wire out_pause;  
-  	mill_modif_demod u1(clk, in_PoR, in_data, out_data);	//DUT a testear
+	mill_modif_demod u1(clk, in_PoR, in_enable, in_data, out_data);	//DUT a testear
 //----------------------------------------------------------
 // Inicializo
 // Inicializar todo para que no quede en estados "fantasmas"
@@ -30,7 +32,7 @@ module mill_modif_demod_tb;	//Modulo de test bench
       clk= 1'b0; 
       in_data= 1'b0;
       in_PoR=1'b0; 
-
+	  in_enable=1'b0;
       end
 //----------------------------------------------------------
 // Creo un clock de 500khz
@@ -49,6 +51,7 @@ module mill_modif_demod_tb;	//Modulo de test bench
 	#32 in_data = ~in_data;				//Switcheo a los 4us in_data
 	#26 in_data = ~in_data;				//Switcheo a los 4us in_data
 	#70 in_data = ~in_data;				//Switcheo a los 4us in_data
+		in_enable = ~in_enable;
 	#26 in_data = ~in_data;				//Switcheo a los 4us in_data
 	#70 in_data = ~in_data;				//Switcheo a los 4us in_data
 	#26 in_data = ~in_data;				//Switcheo a los 4us in_data
