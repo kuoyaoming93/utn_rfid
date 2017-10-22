@@ -66,7 +66,7 @@ module mill_modif_demod #(parameter N = 5)(clk, in_PoR, in_data, out_data);
           		reg_count <= reg_count +1;  //Cuento los clock que entran en los ETUS
         	end
       
-      //-Boque para detectar, mediante un contador, la mitad de un ETU y un ETU completo-
+      //-Bloque para detectar, mediante un contador, la mitad de un ETU y un ETU completo-
       if(reg_count == {(N){1'b1}}) begin	//Cuando cuento los 32 clocks que entran en un etu
         reg_etu <= 1'b1;			//Cambio a estado alto el registro de detección de un ETU
         reg_mitad_etu <= 1'b0;   
