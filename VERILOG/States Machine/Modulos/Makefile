@@ -1,16 +1,16 @@
 #########################################################################################
-# Comandos del MAKEFILE									#
-#	"make compilar" - compila							#
-#	"make simular" - compila el testbench y simula					#
-#	"make mostrar" - compila, simula y muestra el resultado				#
-#	"make limpiar" - elimina todos los archivos generados para compilar y simular.	#
-#	"make all" - limpia, compila, simula y muestra					#
+# Comandos del MAKEFILE																	#
+#	"make compilar" - compila															#
+#	"make simular" - compila el testbench y simula										#
+#	"make mostrar" - compila, simula y muestra el resultado								#
+#	"make limpiar" - elimina todos los archivos generados para compilar y simular.		#
+#	"make all" - limpia, compila, simula y muestra										#
 #########################################################################################
 #Archivos
 
-FUENTE = mill_modif_demod.v
-TESTBENCH = tb_mill_modif_demod.v
-SALIDA = mill_modif_demod.out
+FUENTE = Modulos.v
+TESTBENCH = tb_modulos.v
+SALIDA = Modulos.out
 ##########################################################################################
 #Herramientas
 COMPILADOR = iverilog
@@ -19,7 +19,7 @@ VISUALIZADOR = gtkwave
 #TOOL OPTIONS
 COMP_FLAGS = -o
 COMP_OUT = compilador.out
-SIM_OUT = mill_modif_demod_tb.vcd	#VER tb_mill_modif_demod.v ---> linea 9 'module mill_modif_demod_tb;'
+SIM_OUT = modulos_tb.vcd
 ##########################################################################################
 #DIRECTIVAS
 
