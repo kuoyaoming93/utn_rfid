@@ -111,8 +111,8 @@ module mill_modif_demod #(parameter N = 5, parameter M = 256)(clk, in_PoR, in_en
   always @(posedge flag_pause, posedge reg_etu, posedge reg_mitad_etu) begin
 		
     if(reg_flag && reg_mitad_etu)  begin
-      out_data = out_data <<< 1;
-      out_data <= 1'b0;
+      out_data <= out_data <<< 1;
+      out_data[0] <= 1'b0;
       reg_flag  <= 1'b0;
 			reg_mitad_etu<= 1'b0;
       reg_count <= {N{1'b0}};
@@ -124,15 +124,15 @@ module mill_modif_demod #(parameter N = 5, parameter M = 256)(clk, in_PoR, in_en
 				reg_flag <= 1'b0;
 
         reg_count <= {N{1'b0}};  
-         out_data = out_data <<< 1;
-         out_data <= 1'b1;
+         out_data <= out_data <<< 1;
+        out_data[0] <= 1'b1;
 			end else begin 		    //Vino primero la pausa que la mitad del ETU
 				reg_flag <= 1'b1;
 			end
 		end else begin
 			if(reg_etu) begin	//Si conté un ETU completo
-        out_data = out_data <<< 1;
-        out_data <= 1'b0;
+        out_data <= out_data <<< 1;
+        out_data[0] <= 1'b0;
         reg_etu <= ~reg_etu;        
         reg_count <= {N{1'b0}};     
 			end
